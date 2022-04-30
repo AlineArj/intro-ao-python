@@ -19,7 +19,9 @@ while novo_planeta.lower() != 'concluido':
 
     novo_planeta = input('Novo planeta: ')
 
-print('Fim do programa')
+print()
 
-# Finalmente, fora do loop while, imprima a lista de planetas usando print.
-print(planetas)
+# Crie um loop for para iterar sobre a lista de nomes de planetas. Você pode usar planet como o nome da variável para cada planeta. Dentro do loop for, use print para exibir o nome de cada planeta. imprimir declaração. Execute a célula e forneça uma lista de planetas.
+print('Planetas adicionados: ')
+for _ in planetas:
+    print(_)
