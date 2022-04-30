@@ -21,7 +21,7 @@ if nome_pesquisa in alunas:
 
             if notas[indice] < 60:
                 print(f'Nota: \033[0;31m{notas[indice]}\033[m')
-            elif notas[indice] > 90:
+            elif notas[indice] >= 90:
                 print(f'Nota: \033[0;32m{notas[indice]}\033[m')
             else:
                 print(f'Nota: {notas[indice]}')
