@@ -4,8 +4,7 @@
 
 # Dica: Python oferece recursos mais interessantes para trabalhar com strings, como aspas triplas que permitem escrever
 # longos textos mais facilmente. Elas funcionam como as aspas, mas permitem digitar a mensagem em várias linhas.
-everlong_foo_fighters = """
-Hello
+everlong_foo_fighters = """Hello
 I've waited here for you
 Everlong
 Tonight, I throw myself into
@@ -43,5 +42,10 @@ If anything could ever be this good again
 The only thing I'll ever ask of you
 You've got to promise not to stop when I say when
 """
+lista1_foo_fighters = everlong_foo_fighters.split('\n')
+print(lista1_foo_fighters)
 
+
+# set_foo_fighters = set(everlong_foo_fighters)
+# print(set_foo_fighters)
 
