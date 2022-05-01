@@ -2,7 +2,6 @@
 
 # Neste exercício, você está criando um aplicativo que solicita ao usuário que insira uma lista de planetas. Em um exercício posterior, você adicionará o código que exibe a lista. Por enquanto, porém, você criará apenas o código que avisa o usuário.
 
-
 #Comece adicionando duas variáveis, uma para a entrada do usuário, chamada new_planet, e outra variável para a lista de planetas, chamada planetas.
 novo_planeta = ''
 planetas = []

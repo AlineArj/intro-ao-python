@@ -5,11 +5,11 @@
 
 # Analisando fatos interessantes sobre a lua:
 # " Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C. "
-
 texto_lua = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. 
 On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
 
 texto = texto_lua.lower()
+
 # Separe o parágrafo em frases
 # Em inglês, cada frase termina com um ponto. Você usará isso para quebrar o parágrafo em frases de diferença. Usando o método split para dividir o texto em frases procurando a string . (um ponto seguido de um espaço). Armazene o resultado em uma variável chamada frases. Imprima o resultado.
 frases = texto.split('. ')
@@ -21,4 +21,3 @@ palavra = 'moon'
 for frase in frases:
     if palavra in frase:
         print(frase)
-
