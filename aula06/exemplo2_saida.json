@@ -1,0 +1,202 @@
+{
+    "1": {
+        "nome": "Lavender Brown",
+        "ano_nascimento": "1979",
+        "casa": "Grifinória"
+    },
+    "2": {
+        "nome": "Colin Creevey",
+        "ano_nascimento": "1981",
+        "casa": "Grifinória"
+    },
+    "3": {
+        "nome": "Seamus Finnigan",
+        "ano_nascimento": "1979",
+        "casa": "Grifinória"
+    },
+    "4": {
+        "nome": "Hermione Jean Granger",
+        "ano_nascimento": "1979",
+        "casa": "Grifinória"
+    },
+    "5": {
+        "nome": "Neville Longbottom",
+        "ano_nascimento": "1980",
+        "casa": "Grifinória"
+    },
+    "6": {
+        "nome": "Parvati Patil",
+        "ano_nascimento": "1979",
+        "casa": "Grifinória"
+    },
+    "7": {
+        "nome": "Harry James Potter",
+        "ano_nascimento": "1980",
+        "casa": "Grifinória"
+    },
+    "8": {
+        "nome": "Dean Thomas",
+        "ano_nascimento": "1980",
+        "casa": "Grifinória"
+    },
+    "9": {
+        "nome": "Romilda Vane",
+        "ano_nascimento": "1981",
+        "casa": "Grifinória"
+    },
+    "10": {
+        "nome": "Ginevra Molly Weasley",
+        "ano_nascimento": "1981",
+        "casa": "Grifinória"
+    },
+    "11": {
+        "nome": "Ronald Bilius Weasley",
+        "ano_nascimento": "1980",
+        "casa": "Grifinória"
+    },
+    "12": {
+        "nome": "Hannah Abbott",
+        "ano_nascimento": "1980",
+        "casa": "Lufa-Lufa"
+    },
+    "13": {
+        "nome": "Susan Bones",
+        "ano_nascimento": "1979",
+        "casa": "Lufa-Lufa"
+    },
+    "14": {
+        "nome": "Cedric Diggory",
+        "ano_nascimento": "1977",
+        "casa": "Lufa-Lufa"
+    },
+    "15": {
+        "nome": "Justin Finch-Fletchley",
+        "ano_nascimento": "1979",
+        "casa": "Lufa-Lufa"
+    },
+    "16": {
+        "nome": "Ernest Macmillan",
+        "ano_nascimento": "1980",
+        "casa": "Lufa-Lufa"
+    },
+    "17": {
+        "nome": "Terry Boot",
+        "ano_nascimento": "1980",
+        "casa": "Corvinal"
+    },
+    "18": {
+        "nome": "Mandy Brocklehurst",
+        "ano_nascimento": "1979",
+        "casa": "Corvinal"
+    },
+    "19": {
+        "nome": "Cho Chang",
+        "ano_nascimento": "1979",
+        "casa": "Corvinal"
+    },
+    "20": {
+        "nome": "Penelope Clearwater",
+        "ano_nascimento": "1976",
+        "casa": "Corvinal"
+    },
+    "21": {
+        "nome": "Michael Corner",
+        "ano_nascimento": "1979",
+        "casa": "Corvinal"
+    },
+    "22": {
+        "nome": "Roger Davies",
+        "ano_nascimento": "1978",
+        "casa": "Corvinal"
+    },
+    "23": {
+        "nome": "Marietta Edgecombe",
+        "ano_nascimento": "1978",
+        "casa": "Corvinal"
+    },
+    "24": {
+        "nome": "Anthony Goldstein",
+        "ano_nascimento": "1980",
+        "casa": "Corvinal"
+    },
+    "25": {
+        "nome": "Robert Hilliard",
+        "ano_nascimento": "1974",
+        "casa": "Corvinal"
+    },
+    "26": {
+        "nome": "Luna Lovegood",
+        "ano_nascimento": "1981",
+        "casa": "Corvinal"
+    },
+    "27": {
+        "nome": "Isobel MacDougal",
+        "ano_nascimento": "1980",
+        "casa": "Corvinal"
+    },
+    "28": {
+        "nome": "Padma Patil",
+        "ano_nascimento": "1979",
+        "casa": "Corvinal"
+    },
+    "29": {
+        "nome": "Lisa Turpin",
+        "ano_nascimento": "1979",
+        "casa": "Corvinal"
+    },
+    "30": {
+        "nome": "Millicent Bulstrode",
+        "ano_nascimento": "1979",
+        "casa": "Sonserina"
+    },
+    "31": {
+        "nome": "Vincent Crabbe",
+        "ano_nascimento": "1979",
+        "casa": "Sonserina"
+    },
+    "32": {
+        "nome": "Tracey Davis",
+        "ano_nascimento": "1980",
+        "casa": "Sonserina"
+    },
+    "33": {
+        "nome": "Marcus Flint",
+        "ano_nascimento": "1975",
+        "casa": "Sonserina"
+    },
+    "34": {
+        "nome": "Gregory Goyle",
+        "ano_nascimento": "1980",
+        "casa": "Sonserina"
+    },
+    "35": {
+        "nome": "Terence Higgs",
+        "ano_nascimento": "1979",
+        "casa": "Sonserina"
+    },
+    "36": {
+        "nome": "Draco Lucius Malfoy",
+        "ano_nascimento": "1980",
+        "casa": "Sonserina"
+    },
+    "37": {
+        "nome": "Adelaide Murton",
+        "ano_nascimento": "1982",
+        "casa": "Sonserina"
+    },
+    "38": {
+        "nome": "Pansy Parkinson",
+        "ano_nascimento": "1979",
+        "casa": "Sonserina"
+    },
+    "39": {
+        "nome": "Adrian Pucey",
+        "ano_nascimento": "1977",
+        "casa": "Sonserina"
+    },
+    "40": {
+        "nome": "Blaise Zabini",
+        "ano_nascimento": "1979",
+        "casa": "Sonserina"
+    }
+}
