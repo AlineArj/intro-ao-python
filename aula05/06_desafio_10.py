@@ -2,11 +2,6 @@
 # fazer nada neste arquivo
 import sys
 
-def main():
-    args = ler_argumentos()
-    print(args)
-main()
-
 def ler_argumentos():
     args = {}
     chave = ''
@@ -16,3 +11,8 @@ def ler_argumentos():
         else:
             args[chave] = p
     return args
+
+def main():
+    args = ler_argumentos()
+    print(args)
+main()
