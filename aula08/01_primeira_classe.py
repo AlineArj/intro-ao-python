@@ -26,7 +26,7 @@ class Televisao: # Conveção para nomes de classes: PascalCasing
         if not self.ligada:
             return
 
-        if self.canal > self.canal_max:
+        if self.canal > self.canal_min:
             self.canal -= 1
         
     def aumentar_volume(self):
