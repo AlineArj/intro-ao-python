@@ -9,23 +9,23 @@
 		},
 		{
 			"id": 2,
-			"item": "The Theatre Box",
+			"item": "O Camarote",
 			"artista": "Pierre Auguste Renoir",
-			"colecao": "Courtauld Gallery, London, England",
+			"colecao": "Courtauld Gallery, London, Inglaterra",
 			"data": "1874"
 		},
 		{
 			"id": 3,
-			"item": "Dance in the City",
+			"item": "Dança na Cidade",
 			"artista": "Pierre Auguste Renoir",
-			"colecao": "Musée d'Orsay, Paris, France",
+			"colecao": "Musée d'Orsay, Paris, França",
 			"data": "1883"
 		},
 		{
 			"id": 4,
-			"item": "Dance in the Country",
+			"item": "Dança no Campo",
 			"artista": "Pierre Auguste Renoir",
-			"colecao": "Musée d'Orsay, Paris, France",
+			"colecao": "Musée d'Orsay, Paris, França",
 			"data": "1883"
 		}
 	]
