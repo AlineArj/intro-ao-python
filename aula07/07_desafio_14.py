@@ -2,6 +2,7 @@ import sys
 import requests
 import json
 import csv
+import string
 
 
 # Crie uma aplicação que lê na linha de comando o nome de um feitiço
@@ -19,22 +20,29 @@ def leitura_arq_json():
         feiticos_dict = json.loads(feiticos_json)
         return feiticos_dict
 
+def leitura_arq_json_lower():
+    feiticos_dict_normal = leitura_arq_json()
+
+    feiticos_dict_lower = {}
+    for feitico in feiticos_dict_normal:
+        feiticos_dict_lower[feitico.lower()] = feiticos_dict_normal[feitico]
+    
+    return feiticos_dict_lower
 
 # Imprima para o usuário os dados sobre o feitiço que ele solicitou.
 # Se o feitiço não foi encontrado, lance uma exceção.
 def pesquisa_feiticos():
-    feitico_input = input('Digite um feitiço: ')
+    feitico_input = input('\nDigite um feitiço: ').lower()
     print()
 
-    feiticos_dict = leitura_arq_json()
-
+    feiticos_dict = leitura_arq_json_lower()
     if feiticos_dict == -1:
         return False
     
     try:
         if feiticos_dict[feitico_input]:
-            print('#' * 6 + ' ' + feitico_input + ' ' + '#' * 6)
-            print()
+            #print('#' * 6 + ' ' + capwords(feitico_input) + ' ' + '#' * 6)
+            print(f'####### {string.capwords(feitico_input, sep = None)} #######')
             for chave, valor in feiticos_dict[feitico_input].items():
                 print(f'- {chave}: {valor}')
             print('-' * 30)
@@ -45,11 +53,11 @@ def pesquisa_feiticos():
 
 # Nova pesquisa
 def nova_pesquisa():
-    resposta = input('\nRealizar nova pesquisa? (s/n): ')
+    resposta = input('\nRealizar nova pesquisa? (s/n): ').lower()
 
-    if resposta.lower() == 'n':
+    if resposta == 'n':
         return False
-    elif resposta.lower() == 's':
+    elif resposta == 's':
         return True
     else:
         print('Resposta inválida!')
