@@ -1,7 +1,5 @@
-import sys
 import requests
 import json
-import csv
 import string
 
 
@@ -41,7 +39,6 @@ def pesquisa_feiticos():
     
     try:
         if feiticos_dict[feitico_input]:
-            #print('#' * 6 + ' ' + capwords(feitico_input) + ' ' + '#' * 6)
             print(f'####### {string.capwords(feitico_input, sep = None)} #######')
             for chave, valor in feiticos_dict[feitico_input].items():
                 print(f'- {chave}: {valor}')
